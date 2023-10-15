@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-    res.send('Servicio API V2.0')
+    res.send('API Check-in Tlamabyte V2.0')
 })
 
 app.listen(port, () => {
